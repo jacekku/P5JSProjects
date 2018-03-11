@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 var numbers=[], numbersLength=400, stackSize, border=1, index=0, passes=0, start=0;
 var MAX_VAL=400, combSpacing, sorted=false, shrink=1.3;
 var comparisons=0, changes=0;
@@ -78,7 +76,6 @@ function drawStack(i, clr) {
 function drawPoint(i, clr) {
   fill(clr);
   point(i*stackSize, height-numbers[i]);
-=======
 var numbers=[], numbersLength=400, stackSize, border=1, index=0, passes=0, start=0;
 var MAX_VAL=400, combSpacing, sorted=false, shrink=1.3;
 var comparisons=0, changes=0;
@@ -157,8 +154,6 @@ function drawStack(i, clr) {
 function drawPoint(i, clr) {
   fill(clr);
   point(i*stackSize, height-numbers[i]);
->>>>>>> 0acdedb1d523a6c787293f9edf2b16172cce82fd
-=======
 var numbers=[], numbersLength=400, stackSize, border=1, index=0, passes=0, start=0;
 var MAX_VAL=400, combSpacing, sorted=false, shrink=1.3;
 var comparisons=0, changes=0;
@@ -237,5 +232,4 @@ function drawStack(i, clr) {
 function drawPoint(i, clr) {
   fill(clr);
   point(i*stackSize, height-numbers[i]);
->>>>>>> 0acdedb1d523a6c787293f9edf2b16172cce82fd
 }
