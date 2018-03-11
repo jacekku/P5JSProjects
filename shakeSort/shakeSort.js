@@ -6,8 +6,7 @@ function setup() {
   background(0);
   noStroke();
   smooth(0)
-    //stroke(255);
-    gen();
+  gen();
 }
 
 function draw() {
