@@ -11,7 +11,6 @@ function setup() {
   gen();
 }
 function draw() {
-
   background(0);
   fill(255);
   text("comparisons:"+comparisons+" changes:"+changes, 0, 10);
