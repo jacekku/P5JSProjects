@@ -233,3 +233,5 @@ function drawPoint(i, clr) {
   fill(clr);
   point(i*stackSize, height-numbers[i]);
 }
+}
+}
