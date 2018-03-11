@@ -3,7 +3,6 @@ var p;
 function setup() {
   createCanvas(400,400);
   p=new Particle();
-  //print(p);
 }
 
 function draw() {
