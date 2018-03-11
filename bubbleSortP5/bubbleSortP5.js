@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  print(frameRate());
+  //print(frameRate());
   background(0);
   drawNumbers();
   drawStack(index,color(255,0,0));
@@ -39,7 +39,7 @@ function gen() {
   for (i=0; i<numbersLength; i++) {
     var temp = numbers[i];
     var temp2 = floor(random(numbersLength));
-    print(temp, temp2)
+    //print(temp, temp2)
       numbers[i] = numbers[temp2];
     numbers[temp2] = temp;
   }
