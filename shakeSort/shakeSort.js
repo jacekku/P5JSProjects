@@ -34,7 +34,7 @@ function draw() {
     if (direction==-1)start++;
     if (!swapped) {
       noLoop();
-      drawNumbers();
+      drawNumbers()
     }
     direction*=-1;
     swapped=false;
