@@ -133,7 +133,7 @@ function changeRuleSet() {
 function complimentaryRule() {
   complimentary=buttons.complimentary.checked
     if (!complimentary)return false
-	console.log("",ruleSet.toString(),"\n",ruleSet.map(r=>r?0:1).toString())
+	//console.log("",ruleSet.toString(),"\n",ruleSet.map(r=>r?0:1).toString())
     ruleSet=ruleSet.map(r=>r?0:1)
 	
     return true
