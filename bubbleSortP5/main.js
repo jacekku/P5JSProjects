@@ -1,3 +1,4 @@
+//TODO add interface
 let numbers = [],
   numbersLength = 100,
   stackSize, border = 1,
