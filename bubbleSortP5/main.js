@@ -1,12 +1,12 @@
 let numbers = [],
-  numbersLength = 50,
+  numbersLength = 100,
   stackSize, border = 1,
   index = 0,
   passes = 0,
   start = 0;
-let MAX_VAL = 400,
-  WIDTH = 400,
-  HEIGHT = 400
+let HEIGHT = 400,
+  WIDTH = 800,
+  MAX_VAL = HEIGHT
 let cvs, c, thread
 
 function gen() {
@@ -42,7 +42,7 @@ function init() {
 
   gen()
   stackSize = WIDTH / numbersLength;
-  thread = setInterval(tick, 100)
+  thread = setInterval(tick, 10)
 }
 
 function tick() {
