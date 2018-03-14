@@ -17,7 +17,6 @@ function gen() {
   for (i = 0; i < numbersLength; i++) {
     let temp = numbers[i];
     let temp2 = Math.floor(Math.random() * numbersLength);
-    console.log(temp2);
 
     numbers[i] = numbers[temp2];
     numbers[temp2] = temp;
